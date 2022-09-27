@@ -535,7 +535,7 @@ axe-core@^4.4.3:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.3.tgz#11c74d23d5013c0fa5d183796729bc3482bd2f6f"
   integrity sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w==
 
-axios@^0.27.2:
+axios@0.27.2:
   version "0.27.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
   integrity sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==
@@ -2705,7 +2705,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@^13.3.0:
+rxdb@13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-13.3.0.tgz#72e5f31ee2bae7750a286959730e8599df9f3241"
   integrity sha512-+NYNwHrwGUfhGi6GiC/DQUVHO2+1l/x09YbtlPDRxj8+pkMFScQaq6IBGf+0m3d1Rw/bUCnhtjlEGxlMh2E0UQ==
@@ -2760,7 +2760,7 @@ rxdb@^13.3.0:
     ws "8.8.1"
     z-schema "5.0.4"
 
-rxjs@^7.5.7:
+rxjs@7.5.7:
   version "7.5.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.7.tgz#2ec0d57fdc89ece220d2e702730ae8f1e49def39"
   integrity sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==
