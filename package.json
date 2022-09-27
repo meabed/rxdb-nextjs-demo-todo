@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rxdb": "^13.3.0",
+    "rxjs": "^7.5.7"
   },
   "devDependencies": {
     "@types/node": "18.7.23",
