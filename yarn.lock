@@ -1937,10 +1937,10 @@ isomorphic-ws@4.0.1:
   resolved "https://registry.yarnpkg.com/isomorphic-ws/-/isomorphic-ws-4.0.1.tgz#55fd4cd6c5e6491e76dc125938dd863f5cd4f2dc"
   integrity sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==
 
-js-base64@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.2.tgz#816d11d81a8aff241603d19ce5761e13e41d7745"
-  integrity sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==
+js-base64@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.3.tgz#2e784bb0851636bf1e99ef12e4f3a8a8c9b7639f"
+  integrity sha512-PAr6Xg2jvd7MCR6Ld9Jg3BmTcjYsHEBx1VlwEwULb/qowPf5VD9kEMagj23Gm7JRnSvE/Da/57nChZjnvL8v6A==
 
 js-sdsl@^4.1.4:
   version "4.1.4"
@@ -2818,10 +2818,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@13.11.1:
-  version "13.11.1"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-13.11.1.tgz#be15c4b609a6e43085162594f121dcccbf96641d"
-  integrity sha512-MefW9qisRPL7a2Duy2cj+jx2Bg1RH1KEXUL/WZcF/KWeTwp45j4EW/PSr6zD7PzZMF/2U3p2Aa/pooUP5dmD2w==
+rxdb@13.12.0:
+  version "13.12.0"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-13.12.0.tgz#59944e2df8f59e07e97dcc80ad1357c925656d30"
+  integrity sha512-X/V2cAvX2esD/mb0rAuDSJaAJgOWUmCt8tw+XsWSdzx4um28Dsg2fW8iTgZiwz2zffTdOE9HMGpx9Uf/Sh3ghA==
   dependencies:
     "@babel/runtime" "7.19.0"
     "@types/clone" "2.1.1"
@@ -2850,7 +2850,7 @@ rxdb@13.11.1:
     is-electron "2.2.0"
     is-my-json-valid "2.20.6"
     isomorphic-ws "4.0.1"
-    js-base64 "3.7.2"
+    js-base64 "3.7.3"
     jsonschema-key-compression "1.6.1"
     lokijs "1.5.12"
     mingo "5.1.0"
