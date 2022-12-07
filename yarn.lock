@@ -2353,11 +2353,6 @@ is-docker@^2.0.0, is-docker@^2.1.1:
   resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.1.tgz#33eeabe23cfe86f14bde4408a02c0cfb853acdaa"
   integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
 
-is-electron@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/is-electron/-/is-electron-2.2.0.tgz#8943084f09e8b731b3a7a0298a7b5d56f6b7eef0"
-  integrity sha512-SpMppC2XR3YdxSzczXReBjqs2zGscWQpBIKqwXYBFic0ERaxNVgwLCHwOLZeESfdJQjX0RDvrJ1lBXX2ij+G1Q==
-
 is-extglob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
@@ -3477,10 +3472,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@13.13.6:
-  version "13.13.6"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-13.13.6.tgz#e685d5598518eec2a07f45df69d298a4a656de59"
-  integrity sha512-BqYVeqKVLgVO+Wx6HR1nV4BtEL+g1X8R4JJ7FovULsImdCH2c91MbbaO+vAxjys+iOnEs+osmxDhFN+LED18bg==
+rxdb@13.13.7:
+  version "13.13.7"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-13.13.7.tgz#b24c2a3318a91321bfc7b2e8d08c57f1db2d3413"
+  integrity sha512-1j9QhxmWIFvtYkDNhltsH3b4ctIo94EslfklX3FJrz3dq229EcSQ4CdaISLnQCRwQ5F2fxBtsdm884J9+7NmBQ==
   dependencies:
     "@babel/runtime" "7.19.0"
     "@types/clone" "2.1.1"
@@ -3508,7 +3503,6 @@ rxdb@13.13.6:
     get-graphql-from-jsonschema "8.1.0"
     graphql "15.8.0"
     graphql-ws "5.11.2"
-    is-electron "2.2.0"
     is-my-json-valid "2.20.6"
     isomorphic-ws "5.0.0"
     js-base64 "3.7.3"
