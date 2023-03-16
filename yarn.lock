@@ -2832,10 +2832,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.2.1:
-  version "14.2.1"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.2.1.tgz#2f4821e88e24cdc55bd616a819dc135e772cd3a3"
-  integrity sha512-ctEf0WaFjp/6j8QG7zr6yZE/7VcwBTI5qeuh8o/AxgX0y50fAx0h15zFHcugSHrCXPjfiG845YVJf471VDZ1vw==
+rxdb@14.3.6:
+  version "14.3.6"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.3.6.tgz#a38520a2c6fc4f7a9302e83cfddd51c3aa6a0942"
+  integrity sha512-UCextVy3sesiomLUNyIHVN5TPfjD0x2iaFnqFhOmSs5vk0lpuZejMnHCOl0/q5spVxoSsCHfjYLfWYpz/VPq/A==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
@@ -2871,7 +2871,7 @@ rxdb@14.2.1:
     socket.io-client "4.6.1"
     unload "2.4.1"
     util "0.12.5"
-    ws "8.12.1"
+    ws "8.13.0"
     z-schema "5.0.5"
 
 rxjs@7.8.0:
@@ -3276,10 +3276,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@8.12.1:
-  version "8.12.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.1.tgz#c51e583d79140b5e42e39be48c934131942d4a8f"
-  integrity sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==
+ws@8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
+  integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
 
 ws@~8.11.0:
   version "8.11.0"
