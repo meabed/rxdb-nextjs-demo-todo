@@ -10,13 +10,6 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.20.7":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.7.tgz#fcb41a5a70550e04a7b708037c7c32f7f356d8fd"
-  integrity sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==
-  dependencies:
-    regenerator-runtime "^0.13.11"
-
 "@babel/runtime@7.21.0":
   version "7.21.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
@@ -752,10 +745,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.23.tgz#75c580983846181ebe5f4abc40fe9dfb2d65665f"
   integrity sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
 
-"@types/node@18.14.5":
-  version "18.14.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.5.tgz#4a13a6445862159303fc38586598a9396fc408b3"
-  integrity sha512-CRT4tMK/DHYhw1fcCEBwME9CSaZNclxfzVMe7GsO6ULSwsttbj70wSiX6rZdIjGblu93sTJxLdhNIT85KKI7Qw==
+"@types/node@18.15.8":
+  version "18.15.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.8.tgz#222383320e71f9a1397d25c416e9c62d347758e0"
+  integrity sha512-kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==
 
 "@types/node@>=12.12.47", "@types/node@>=13.7.0":
   version "18.11.10"
@@ -1038,12 +1031,12 @@ braces@^3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-broadcast-channel@4.20.2:
-  version "4.20.2"
-  resolved "https://registry.yarnpkg.com/broadcast-channel/-/broadcast-channel-4.20.2.tgz#34c639251dfc586da7c8c1d6b2418dafa9568ae0"
-  integrity sha512-v0lJgMzC+MX4e2KCFWYXChZ2mKTqm5mnJGId6tqJp3NfylggbNd8c2uKeP4MQxD2ucKOesY68aN98zwl9d6Tvg==
+broadcast-channel@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/broadcast-channel/-/broadcast-channel-5.0.3.tgz#1e839f51df540513f0eba78d57d65b4a7b8fe3d2"
+  integrity sha512-d8rD0sXjc2/MMBJCFuQW/dpY7ckucd3pBDMU3ue98uqMb5NAVR75so4X1XJUe1vGv9cOeQmzIPxNhsGRp2JAxw==
   dependencies:
-    "@babel/runtime" "7.20.7"
+    "@babel/runtime" "7.21.0"
     oblivious-set "1.1.1"
     p-queue "6.6.2"
     rimraf "3.0.2"
@@ -2827,10 +2820,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.3.7:
-  version "14.3.7"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.3.7.tgz#40fd940acaffe6c1772ae03bd1625c635efe4166"
-  integrity sha512-j3g8o99sXC7tazItDOA6z6DbvKyMVFVP1W08VHaP4I7tuZ7yR3frPPKwrxOfz+NU2OCoFUQuSTWsFDXJgr+D5A==
+rxdb@14.5.0:
+  version "14.5.0"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.5.0.tgz#2709aa5a52d0555f32eb83ff11d16088ee23df83"
+  integrity sha512-i8r1+uRJkrKxqxPcdrWfPNo0gnuP+qrIXhCh5DXBMtDICeC7kGDeegCwr6BJeTstR2u6qYTZPpW8bd81msmD6w==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
@@ -2842,7 +2835,7 @@ rxdb@14.3.7:
     ajv "8.12.0"
     array-push-at-sort-position "2.0.0"
     as-typed "1.3.2"
-    broadcast-channel "4.20.2"
+    broadcast-channel "5.0.3"
     crypto-js "4.1.1"
     custom-idle-queue "3.0.1"
     dexie "4.0.0-alpha.4"
