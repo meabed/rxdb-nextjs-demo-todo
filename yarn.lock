@@ -917,6 +917,11 @@ array-push-at-sort-position@2.0.0:
   resolved "https://registry.yarnpkg.com/array-push-at-sort-position/-/array-push-at-sort-position-2.0.0.tgz#1e074ac26edb731397fd1e9a7d4213d50255df45"
   integrity sha512-ql0VKuKrho2TCC0dRSt0MBZtoXxB1DazRFo5gO/r29O2lAT2hgP2rnS8j7aLzqP4Ig15VQhyRN1cOU2hd/+jkw==
 
+array-push-at-sort-position@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/array-push-at-sort-position/-/array-push-at-sort-position-3.0.0.tgz#8eeb4d333db9b0503d2baf14dd3d001adf7e0efd"
+  integrity sha512-U0ehr2otaSYeaDOSHY9Hu/E0k6GL4NrjP4qUyoUKbNTNOer2RCvdiaVkd2Dqg/ltGTrEng5o36so3qBaIWJPvg==
+
 array-union@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
@@ -2809,10 +2814,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.5.2:
-  version "14.5.2"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.5.2.tgz#71fcafd1924621690f16fec0fa8151c861f8d44f"
-  integrity sha512-rcVqQ+aZjtDu9N1DPVFz0rrGf5SKFFKU6CNg53xw0PWiYVTo8fkErrDAUqTyAFgl4wsG5qiE8AgQaw/WAKT4Uw==
+rxdb@14.6.4:
+  version "14.6.4"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.6.4.tgz#1afdfb2fa920f24a3eac1d4282da9e79da3ee49a"
+  integrity sha512-RzVGLstEJf1NX2xIOcNyAY6+yhzimn/qhvnxoSTgwgRoH2FQptFD+FBPbQveXl9AwcNR1fRJcN9sMafDPWwGjw==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
@@ -2822,7 +2827,7 @@ rxdb@14.5.2:
     "@types/simple-peer" "9.11.5"
     "@types/ws" "8.5.4"
     ajv "8.12.0"
-    array-push-at-sort-position "2.0.0"
+    array-push-at-sort-position "3.0.0"
     as-typed "1.3.2"
     broadcast-channel "5.0.3"
     crypto-js "4.1.1"
