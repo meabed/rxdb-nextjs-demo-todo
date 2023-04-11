@@ -2814,10 +2814,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.6.4:
-  version "14.6.4"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.6.4.tgz#1afdfb2fa920f24a3eac1d4282da9e79da3ee49a"
-  integrity sha512-RzVGLstEJf1NX2xIOcNyAY6+yhzimn/qhvnxoSTgwgRoH2FQptFD+FBPbQveXl9AwcNR1fRJcN9sMafDPWwGjw==
+rxdb@14.7.0:
+  version "14.7.0"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.7.0.tgz#38055159ddd4ad5f0166614bf85bf73148028e10"
+  integrity sha512-RcwwCvTV7VUgUuJDzGBloC6Xkx/9EEXQOoNhHJnmJOis8+axj5gqHObs1vqB12o4fIcU0GAPNoordCbswfphUw==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
