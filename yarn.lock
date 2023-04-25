@@ -2468,10 +2468,10 @@ oblivious-set@1.1.1:
   resolved "https://registry.yarnpkg.com/oblivious-set/-/oblivious-set-1.1.1.tgz#d9d38e9491d51f27a5c3ec1681d2ba40aa81e98b"
   integrity sha512-Oh+8fK09mgGmAshFdH6hSVco6KZmd1tTwNFWj35OvzdmJTMZtAkbn05zar2iG3v6sDs1JLEtOiBGNb6BHwkb2w==
 
-ohash@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.1.tgz#7f34db6fb2852f4cd96afffc595de68d6d9f80f1"
-  integrity sha512-N9UDJn2IV6oO6pNclJ80tRXraNNJqw/asscr3Lu7+ibRQdEswejJuuXNclMQTJVTsVhQs+ZJThVziy6t2v2KXA==
+ohash@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.2.tgz#902dd01484f5573ef941d8f9e81105a2e13fd9ba"
+  integrity sha512-9CIOSq5945rI045GFtcO3uudyOkYVY1nyfFxVQp+9BRgslr8jPNiSSrsFGg/BNTUFOLqx0P5tng6G32brIPw0w==
 
 once@^1.3.0:
   version "1.4.0"
@@ -2819,10 +2819,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.9.0:
-  version "14.9.0"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.9.0.tgz#7040d6e81f04eb099c6d71154576dfe9838fdeb9"
-  integrity sha512-slX6RHdtTtzseiu4kMmaqbcY8d2MkKtvhRMUDnq6Kr3U9o0e5S6Z43cXg4Sk9yxe5JtvCT0CV0VCM51FMFDo0A==
+rxdb@14.10.0:
+  version "14.10.0"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.10.0.tgz#146f8a8fee8f8cb68ccfb90dbfdcfbeb29615ff6"
+  integrity sha512-lMBBE1YxTJn/w8QudpcOtkakbWgJjWfH7Rt2dmfGpAOW7E2UL1Kk+CB6mEMjFuKryMBILGRg1VlUQrrhcpye4Q==
   dependencies:
     "@babel/runtime" "7.21.0"
     "@types/clone" "2.1.1"
@@ -2851,7 +2851,7 @@ rxdb@14.9.0:
     mingo "6.3.2"
     modifyjs "0.3.1"
     oblivious-set "1.1.1"
-    ohash "1.1.1"
+    ohash "1.1.2"
     pako "2.1.0"
     pouchdb-selector-core "8.0.1"
     reconnecting-websocket "4.4.0"
