@@ -13,7 +13,7 @@
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rxdb": "14.14.2",
+    "rxdb": "14.15.0",
     "rxjs": "7.8.1"
   },
   "devDependencies": {
