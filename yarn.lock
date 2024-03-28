@@ -706,10 +706,10 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@4.17.17":
-  version "4.17.17"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.17.tgz#01d5437f6ef9cfa8668e616e13c2f2ac9a491ae4"
-  integrity sha512-Q4FmmuLGBG58btUnfS1c1r/NQdlp3DMfGDGig8WhfpA2YRUtEkxAjkZb0yvplJGYdF1fsQ81iMDcH24sSCNC/Q==
+"@types/express@4.17.18":
+  version "4.17.18"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.18.tgz#efabf5c4495c1880df1bdffee604b143b29c4a95"
+  integrity sha512-Sxv8BSLLgsBYmcnGdGjjEjqET2U+AKAdCRODmMiq02FgjwuV75Ut85DRpvFjyw/Mk0vgUOliGRU0UUmuuZHByQ==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "^4.17.33"
@@ -981,11 +981,6 @@ array-includes@^3.1.6:
     get-intrinsic "^1.2.1"
     is-string "^1.0.7"
 
-array-push-at-sort-position@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/array-push-at-sort-position/-/array-push-at-sort-position-2.0.0.tgz#1e074ac26edb731397fd1e9a7d4213d50255df45"
-  integrity sha512-ql0VKuKrho2TCC0dRSt0MBZtoXxB1DazRFo5gO/r29O2lAT2hgP2rnS8j7aLzqP4Ig15VQhyRN1cOU2hd/+jkw==
-
 array-push-at-sort-position@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/array-push-at-sort-position/-/array-push-at-sort-position-3.0.0.tgz#8eeb4d333db9b0503d2baf14dd3d001adf7e0efd"
@@ -1146,7 +1141,7 @@ broadcast-channel@5.3.0:
     p-queue "6.6.2"
     unload "2.4.1"
 
-bson@^6.0.0:
+bson@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/bson/-/bson-6.1.0.tgz#ea7c98b90540e1632173da6b1f70187827e6ae8c"
   integrity sha512-yiQ3KxvpVoRpx1oD1uPz4Jit9tAVTJgjdmjDKtUErkOoL9VNoF8Dd58qtAOL5E40exx2jvAT9sqdRSK/r+SHlA==
@@ -1786,12 +1781,12 @@ esutils@^2.0.2:
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
 
-event-reduce-js@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/event-reduce-js/-/event-reduce-js-3.0.0.tgz#104d79cda1ccb7558e643c1702f80cb96235b5ac"
-  integrity sha512-8Rko6sf8HKrY8IcLPDIl7nAvPwMx+kOQjy79QUDsZ0xHPSOhPicm3Azo5BjhoKFBIGQ8Mcc8ntihr3RfbzNYfA==
+event-reduce-js@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/event-reduce-js/-/event-reduce-js-3.1.2.tgz#6ad21da057110f9501ce9a5bbdb24d4a9405410d"
+  integrity sha512-DATsZc4EpIRlcTgmyHjpn6l+U6GL/9FPsecguhNxE82usQmoZ40Mo8YxzoWCFIeXRBO9xGO3M4lknq0cXTHWZg==
   dependencies:
-    array-push-at-sort-position "2.0.0"
+    array-push-at-sort-position "3.0.0"
     binary-decision-diagram "2.0.1"
 
 eventemitter3@^4.0.4:
@@ -2755,13 +2750,13 @@ mongodb-connection-string-url@^2.6.0:
     "@types/whatwg-url" "^8.2.1"
     whatwg-url "^11.0.0"
 
-mongodb@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-6.0.0.tgz#a01f989d0c1ceb7b08068551c545e6131557a1e8"
-  integrity sha512-wUIYesF4DTyDccm0noE5TwGi9ISdXUAi9T2cQ4xPc+EUBZG44bfMVt2ecOG5Ypca7eCz3oRpJm6YI6c7jAnuNw==
+mongodb@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-6.1.0.tgz#5144bee74d50746f7b0ed68dbb974f31e1b40900"
+  integrity sha512-AvzNY0zMkpothZ5mJAaIo2bGDjlJQqqAbn9fvtVgwIIUPEfdrqGxqNjjbuKyrgQxg2EvCmfWdjq+4uj96c0YPw==
   dependencies:
     "@mongodb-js/saslprep" "^1.1.0"
-    bson "^6.0.0"
+    bson "^6.1.0"
     mongodb-connection-string-url "^2.6.0"
 
 ms@2.1.2:
@@ -2779,10 +2774,10 @@ nanoid@^3.3.6:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
-nats@2.16.0:
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/nats/-/nats-2.16.0.tgz#8be2a564027a665b52b3a9b60c23bb9ea02e444a"
-  integrity sha512-VH0FiMGMjv+6+DGz5sPfpEkOQXn9rVtadJ3l1D0+HzezVks5lCl2WTgNO3Q0Ba5n43n+BOz95U5muPF3EpsEtA==
+nats@2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/nats/-/nats-2.17.0.tgz#1f6ffa5d89bb8ea4549e205f42601dbf66c4561e"
+  integrity sha512-749TtweWL6bc9R9yNra4a+tuk8J0bqurxcPV/9R2D+WPTplY4PPde/LPSXspqR/eCCTxiM80/AjVlfboEafRxA==
   dependencies:
     nkeys.js "1.0.5"
 
@@ -3260,15 +3255,15 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxdb@14.17.0:
-  version "14.17.0"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.17.0.tgz#8d2b1e3b33ee9ffc0a76c1385eee422a84384f0b"
-  integrity sha512-pYitQ7fGqtrT36VPHKA3ul0WJUkDAyOGvOGd3nmWraC/BKbjSB2gnb3h5++9yUQA+TtengufPJikkrn8oLQRFg==
+rxdb@14.17.1:
+  version "14.17.1"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-14.17.1.tgz#7f1cefe3988ac06d5706e4d1fd8a2766c212f521"
+  integrity sha512-uJEkJn2RS3OTXdVKAKsqiVmnnObugqoZOqzW/zN2qzVqqMkuvhypuFgOWCfGuYijY2MN7vIB+1BHdUJ637/VrA==
   dependencies:
     "@babel/runtime" "7.22.15"
     "@types/clone" "2.1.2"
     "@types/cors" "2.8.14"
-    "@types/express" "4.17.17"
+    "@types/express" "4.17.18"
     "@types/lokijs" "1.5.10"
     "@types/simple-peer" "9.11.5"
     "@types/ws" "8.5.5"
@@ -3279,7 +3274,7 @@ rxdb@14.17.0:
     crypto-js "4.1.1"
     custom-idle-queue "3.0.1"
     dexie "4.0.0-alpha.4"
-    event-reduce-js "3.0.0"
+    event-reduce-js "3.1.2"
     firebase "9.23.0"
     get-graphql-from-jsonschema "8.1.0"
     graphql "15.8.0"
@@ -3291,8 +3286,8 @@ rxdb@14.17.0:
     lokijs "1.5.12"
     mingo "6.4.4"
     modifyjs "0.3.1"
-    mongodb "6.0.0"
-    nats "2.16.0"
+    mongodb "6.1.0"
+    nats "2.17.0"
     oblivious-set "1.1.1"
     ohash "1.1.3"
     pako "2.1.0"
@@ -3301,7 +3296,7 @@ rxdb@14.17.0:
     socket.io-client "4.7.2"
     unload "2.4.1"
     util "0.12.5"
-    ws "8.13.0"
+    ws "8.14.2"
     z-schema "6.0.1"
 
 rxjs@7.8.1:
@@ -3906,10 +3901,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@8.13.0:
-  version "8.13.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
-  integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
+ws@8.14.2:
+  version "8.14.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
+  integrity sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==
 
 ws@~8.11.0:
   version "8.11.0"
