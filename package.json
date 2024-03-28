@@ -17,7 +17,7 @@
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@types/node": "20.11.25",
+    "@types/node": "20.11.30",
     "@types/react": "18.2.73",
     "@types/react-dom": "18.2.23",
     "eslint": "8.55.0",
